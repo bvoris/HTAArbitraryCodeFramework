@@ -26,7 +26,7 @@ The fake "search" feature.<BR />
 The malicious script or executable code.<BR />
 
 ## What does it look like?
-<IMG SRC="https://github.com/bvoris/HTAArbitraryCodeFramework/blob/main/screenshots/Google.com.png?raw=true" height="20%" width="20%">
+<IMG SRC="https://github.com/bvoris/HTAArbitraryCodeFramework/blob/main/screenshots/Google.com.png?raw=true" height="50%" width="50%">
 
 ## Connect with me at
 

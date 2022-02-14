@@ -25,6 +25,9 @@ The HTA itself which is labeled as hack.hta<BR />
 The fake "search" feature.<BR />
 The malicious script or executable code.<BR />
 
+## What does it look like?
+
+
 ## Connect with me at
 
 <a href="https://twitter.com/HMInfoSecViking?ref_src=twsrc%5Etfw"><IMG SRC="https://github.com/bvoris/bvoris/blob/master/twitter.jpg" WIDTH=10% HEIGHT=10% ALIGN=LEFT></a>

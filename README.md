@@ -15,7 +15,11 @@ Created By: Brad Voris<BR />
 An HTML Application (HTA) is a Microsoft Windows program whose source code consists of HTML, Dynamic HTML, and one or more scripting languages supported by Internet Explorer, such as VBScript or JScript. The HTML is used to generate the user interface, and the scripting language is used for the program logic. An HTA executes without the constraints of the internet browser security model; in fact, it executes as a "fully trusted" application.<BR />
 
 The usual file extension of an HTA is .hta.<BR />
-https://en.wikipedia.org/wiki/HTML_Application<BR />
+Source: https://en.wikipedia.org/wiki/HTML_Application<BR />
+
+## What is this "framework?
+Currently HTAs are still supported on Windows 11 and lower environments.<BR />
+This means a crafty Hypertext Applicaiton can be used to steal information from your machien disgusing itself as a legitimate application. This makes it difficult to detect.<BR />
 
 ## Connect with me at
 

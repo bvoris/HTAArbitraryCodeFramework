@@ -17,9 +17,13 @@ An HTML Application (HTA) is a Microsoft Windows program whose source code consi
 The usual file extension of an HTA is .hta.<BR />
 Source: https://en.wikipedia.org/wiki/HTML_Application<BR />
 
-## What is this "framework?
+## What is this "framework"?
 Currently HTAs are still supported on Windows 11 and lower environments.<BR />
 This means a crafty Hypertext Applicaiton can be used to steal information from your machien disgusing itself as a legitimate application. This makes it difficult to detect.<BR />
+The framework itself is a set of files.<BR />
+The HTA itself which is labeled as hack.hta<BR />
+The fake "search" feature.<BR />
+The malicious script or executable code.<BR />
 
 ## Connect with me at
 

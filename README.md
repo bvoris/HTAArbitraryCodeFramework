@@ -79,6 +79,8 @@ script type="text/javascript" src=PIE.js<BR />
  The VBScript that can run ANY command or script. I do mean ANY command. I've you've got python or powershell scripts you can just replace the executable and what ever script parameters needed. In this case it will execute a malicious PowerShell scriipt and bypass the execution policy.<BR />
  <BR /><BR />
 
+SEVENTH:<BR />
+BYOMS - Bring your own Malicious Script....<BR /><BR />
 ## Yes that's not so hard and its easy to construct fake application front ends even pass them off to websites for Man In the Middle Attacks, code injection, additional hijacking etc.
  This isn't rocket science here. Its literally taking legacy functionality that should have been removed a decade and exploiting it.<BR />
 

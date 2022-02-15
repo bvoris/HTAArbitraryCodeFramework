@@ -81,7 +81,11 @@ script type="text/javascript" src=PIE.js<BR />
 
 ## Yes that's not so hard and its easy to construct fake application front ends even pass them off to websites for Man In the Middle Attacks, code injection, additional hijacking etc.
  This isn't rocket science here. Its literally taking legacy functionality that should have been removed a decade and exploiting it.<BR />
- 
+
+## What gave you the idea for this project?
+One of my previous projects LANMonkey and a Printer deployment Hypertext application that I used back in the early 2000's. Both of the applications used Hypertext applications as a front end medium for enduser's and technicians to troubleshoot and deploy. I took a look at the code a few days ago and decided to mock up this to see if it could still work. Low and behold.... <BR />
+The best prevention method for an exploit like this is just removing Internet Explorer, MSHTA.exe and blocking HTAs. Hypertext applications have been around since 1999. Until Microsoft removes this functionality it will always be a vulnerability ripe for exploit.
+	
 ## Connect with me at
 
 <a href="https://twitter.com/HMInfoSecViking?ref_src=twsrc%5Etfw"><IMG SRC="https://github.com/bvoris/bvoris/blob/master/twitter.jpg" WIDTH=10% HEIGHT=10% ALIGN=LEFT></a>

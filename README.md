@@ -83,7 +83,9 @@ script type="text/javascript" src=PIE.js<BR />
  This isn't rocket science here. Its literally taking legacy functionality that should have been removed a decade and exploiting it.<BR />
 
 ## What gave you the idea for this project?
-One of my previous projects LANMonkey and a Printer deployment Hypertext application that I used back in the early 2000's. Both of the applications used Hypertext applications as a front end medium for enduser's and technicians to troubleshoot and deploy. I took a look at the code a few days ago and decided to mock up this to see if it could still work. Low and behold.... <BR />
+One of my previous projects LANMonkey and a Printer deployment Hypertext application that I used back in the early 2000's. Both of the applications used Hypertext applications as a front end medium for enduser's and technicians to troubleshoot and deploy. I took a look at the code a few days ago and decided to mock up this to see if it could still work. Low and behold.... <BR /><BR />
+
+## Conclusion:
 The best prevention method for an exploit like this is just removing Internet Explorer, MSHTA.exe and blocking HTAs. Hypertext applications have been around since 1999. Until Microsoft removes this functionality it will always be a vulnerability ripe for exploit.
 	
 ## Connect with me at

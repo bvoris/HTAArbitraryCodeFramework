@@ -24,9 +24,32 @@ The framework itself is a set of files.<BR />
 The HTA itself which is labeled as hack.hta<BR />
 The fake "search" feature.<BR />
 The malicious script or executable code.<BR />
+PIE.js which we use for backwards compatability for CSS (we will get more on that on the secret sauce)<BR />
 
 ## What does it look like?
 <IMG SRC="https://github.com/bvoris/HTAArbitraryCodeFramework/blob/main/screenshots/Google.com.png?raw=true" height="90%" width="90%">
+ 
+## What's the secret sauce?
+There are several components which equate out to the secret sauce<BR /><BR />
+FIRST:<BR />
+.HTA extension<BR />
+This tells Windows that the file is a Hypertext Application.<BR /><BR />
+
+SECOND:<BR />
+<HTA:APPLICATION <BR />
+     APPLICATIONNAME="HackToolz"<BR />
+     SCROLL="yes"<BR />
+     SINGLEINSTANCE="yes"<BR />
+     SysMenu="yes"<BR />
+><BR />
+ This is the application information that is in the header of the HTML to preload and execute.<BR /><BR />
+
+THIRD:  
+'meta http-equiv="X-UA-Compatible" content="IE=8;IE=7;" /' <BR />
+ This meta tag forces Internet Explorer to load the content in IE-7/IE-8.<BR /> This also reduces that security capability and allows arbitrary VBScript to run in the browser via my fourth ingredient secret sauce.<BR /><BR />
+
+FOURTH:<BR />
+<BR />
 
 ## Connect with me at
 

